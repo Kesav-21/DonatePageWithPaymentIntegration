@@ -1,11 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './Component/Header';
+import TopHeader from './Component/TopHeader';
+import BottomHeader from './Component/BottomHeader';
+import Banner from './Component/Banner';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <TopHeader/>
+      <BottomHeader/>
+      <Banner/>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Header=()=>{
+const TopHeader=()=>{
     return(
         <header id="header" class="header-section">
     <div class="top-header">
@@ -28,4 +28,4 @@ const Header=()=>{
     )
 }
 
-export default Header;
+export default TopHeader;
