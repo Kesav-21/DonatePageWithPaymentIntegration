@@ -6,9 +6,9 @@ const Banner=()=>{
         <section class="slider-section">
         <div class="slider-wrapper">
             <div id="main-slider" class="nivoSlider">
-                <img src="img/slider-1.jpg" alt="" title="#slider-caption-1"/>
-                <img src="img/slider-2.jpg" alt="" title="#slider-caption-2"/>
-                <img src="img/slider-3.jpg" alt="" title="#slider-caption-3"/>
+                <img src="../assets/img/slider-1.jpg" alt="" title="#slider-caption-1"/>
+                <img src="../assets/img/slider-2.jpg" alt="" title="#slider-caption-2"/>
+                <img src="../assets/img/slider-3.jpg" alt="" title="#slider-caption-3"/>
             </div>
     
             <div id="slider-caption-1" class="nivo-html-caption slider-caption">
@@ -63,7 +63,7 @@ const Banner=()=>{
                 <div class="row">
                     <div class="col-md-4 col-sm-6 xs-padding">
                         <div class="promo-content">
-                            <img src="img/icon-1.png" alt="prmo icon"/>
+                            <img src="../assets/img/icon-1.png" alt="prmo icon"/>
                             <h3>Make Donetion</h3>
                             <p>Help today because tomorrow you may be the one who needs helping!</p>
                             <a href="#">Read More</a>
@@ -71,7 +71,7 @@ const Banner=()=>{
                     </div>
                     <div class="col-md-4 col-sm-6 xs-padding">
                         <div class="promo-content">
-                            <img src="img/icon-2.png" alt="prmo icon"/>
+                            <img src="../assets/img/icon-2.png" alt="prmo icon"/>
                             <h3>Fundrising</h3>
                             <p>Help today because tomorrow you may be the one who needs helping! </p>
                             <a href="#">Read More</a>
@@ -79,7 +79,7 @@ const Banner=()=>{
                     </div>
                     <div class="col-md-4 col-sm-6 xs-padding">
                         <div class="promo-content">
-                            <img src="img/icon-3.png" alt="prmo icon"/>
+                            <img src="../assets/img/icon-3.png" alt="prmo icon"/>
                             <h3>Become A Volunteer</h3>
                             <p>Help today because tomorrow you may be the one who needs helping! </p>
                             <a href="#">Read More</a>
