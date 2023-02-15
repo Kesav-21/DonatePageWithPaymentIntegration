@@ -1,42 +1,6 @@
-    /*Charitify NGO/Charity/Fundraising Template By DynamicLayers*/
+ @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap');
 
-/*  ==========================================================================
-    Table of Contets
-    ==========================================================================
-    
-    1.0 Common Styles
-    2.0 Header Section
-    3.0 Slider Section
-    4.0 Promo Section
-    5.0 Causes Section
-    6.0 About Section
-    7.0 Campaigns Section
-    8.0 Team Section
-    9.0 Counter Section
-    10.0 Event Section
-    11.0 Testimonial Section
-    12.0 Sponsor Section
-    13.0 Widget Section
-    14.0 Hero Section
-    15.0 Page Header Section
-    16.0 CTA Section
-    17.0 Gallery Section
-    18.0 Blog Section
-	19.0 Sidebar Section
-	20.0 Contact Section
-	21.0 Footer Section
-	22.0 Scroll To Top
-    
-    ==========================================================================
-    DynamicLayers
-    ========================================================================== */
-
-    @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap');
-    
-/*  ==========================================================================
-    1.0 Common Styles
-    ========================================================================== */
-*{
+ *{
     padding: 0;
     margin: 0;
 }
@@ -135,7 +99,7 @@ button{
     border: none;
     background: none;
 }
-/* Helper Class */
+
 .padding{
     padding: 80px 0;
 }
