@@ -602,7 +602,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 .promo-section{
     position: relative;
     display: block;
-    margin-top: -80px;
+    margin-top: -30px;
     min-height: 360px;
 }
 .promo-wrap{
@@ -1014,65 +1014,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     font-size: 18px;
 	margin: 0;
 }
-/* ==========================================================================
-   10.0 Event Section
-   ========================================================================== */
-.events-item{
-    padding-left: 300px;
-    position: relative;
-}
-.events-item .event-thumb{
-    width: 300px;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    overflow: hidden;
-}
-.event-details{
-    background-color: #fafafa;
-    padding: 30px 15px;
-    border: 1px dashed #ddd;
-}
-.event-info i{
-    color: #f8b864;
-    margin-right: 10px;
-}
-.event-info p{
-    margin-bottom: 5px;
-    font-size: 12px;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #999;
-}
-.event-info{
-    margin-bottom: 10px;
-}
 
-/*Owl Navigation*/
-
-.owl-nav div{
-    background-color: #f8b864;
-    color: #fff;
-    border-radius: 2px;
-    width: 40px;
-    height: 40px;
-    font-size: 16px;
-    text-align: center;
-    line-height: 40px;
-    position: absolute;
-    left: -40px;
-    top: calc(50% - 25px);
-    transition: all 0.5s ease-in-out;
-}
-.owl-nav div:hover{
-    opacity: 1;
-    transition: all 0.5s ease-in-out;
-}
-.owl-nav div.owl-next{
-    left: auto;
-    right: -40px;
-}
 /* ==========================================================================
    11.0 Testimonial Section
    ========================================================================== */
@@ -1101,94 +1043,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     display: flex;
     align-items: center;
 }
-/*Owl Carousel Dots*/
-.testimonial-carousel .owl-dots{
-    display: block;
-    text-align: center;
-}
-.testimonial-carousel .owl-dots .owl-dot{
-    background-color: #ddd;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 0 3px;
-    transition: all 0.5s ease-in-out;
-}
-.testimonial-carousel .owl-dots .owl-dot.active{
-    background-color: #f8b864;
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-    transition: all 0.5s ease-in-out;
-}
 
-/* ==========================================================================
-   12.0 Sponsor Section
-   ========================================================================== */
-.sponsor-section{
-    padding: 30px 0;
-    
-}
-.sponsor-section .sponsor-item img{
-    width: 100%;
-    padding: 20px;
-    opacity: 0.8;
-}
-.sponsor-section .sponsor-items li img:hover{
-    opacity: 1;
-    
-}
-
-/* ==========================================================================
-   13.0 Widget Section
-   ========================================================================== */
-.widget-section{
-    background-color: #222;
-    background-image: url(./assets/img/logo.png);
-    background-position: right 150px center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-}
-.widget-content img{
-    margin-bottom: 15px;
-}
-.widget-content p{
-    color: #999;
-}
-.widget-content h3{
-    color: #ddd;
-}
-.widget-content .social-icon li{
-    display: inline-block;
-    margin-right: 15px;
-}
-.widget-content .social-icon li a{
-    display: inline-block;
-    color: #f8b864;
-}
-.widget-content .social-icon li a:hover{
-    color: #fff;
-}
-.widget-content .widget-link li a{
-    color: #999;
-    margin-bottom: 16px;
-    display: block;
-}
-.widget-content .widget-link li a:hover{
-    color: #f8b864;
-    text-decoration: underline;
-}
-.widget-content .address li{
-    margin-bottom: 16px;
-    display: block;
-    font-family: "Jost", sans-serif;
-    color: #999;
-}
-.widget-content .address li i{
-    color: #f8b864;
-    margin-right: 10px;
-}
 /* ==========================================================================
    14.0 Hero Section
    ========================================================================== */
@@ -1234,35 +1089,6 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 }
 .pager-header p{
     color: #ddd;
-}
-
-/*Breadcrumb */
-.breadcrumb{
-    background-color: transparent;
-    padding: 0;
-}
-.breadcrumb li a{
-    font-weight: 600;
-    color: #ddd;
-    font-family: "Jost",sans-serif;
-    text-transform: uppercase;
-    font-size: 12px;
-}
-
-.breadcrumb li a:hover{
-    text-decoration: underline;
-}
-.breadcrumb .active{
-    color: #f8b864;
-    font-weight: 600;
-    font-family: "Jost",sans-serif;
-    text-transform: uppercase;
-    font-size: 12px;
-}
-
-/*404 Error Section*/
-.error-content h2{
-    font-size: 120px;
 }
 
 /* ==========================================================================
