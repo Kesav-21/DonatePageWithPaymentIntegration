@@ -1,7 +1,6 @@
 import React from "react";
 import { MailOutline,PhoneInTalkOutlined,FacebookOutlined, Twitter, Instagram, LinkedIn } from "@mui/icons-material";
 
-
 const TopHeader=()=>{
     return(
         <header id="header" class="header-section">

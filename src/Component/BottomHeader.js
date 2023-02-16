@@ -1,5 +1,5 @@
 import React from "react";
-
+import icon from '../assets/img/icon.png';
 const BottomHeader=()=>{
     return(
         <header id="header" class="header-section">
@@ -8,7 +8,7 @@ const BottomHeader=()=>{
             <div class="bottom-content-wrap row">
                 <div class="col-sm-4">
                     <div class="site-branding">
-                        <a href="#"><img src="img/logo.png" alt="Brand"/></a>
+                        <a href="#"><img src={icon} width="30px" height="30px" alt="Brand"/><span>The Smile Foundation</span></a>
                     </div>
                 </div>
                <div class="col-sm-8 text-right">

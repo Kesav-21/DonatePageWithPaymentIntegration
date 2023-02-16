@@ -6,7 +6,7 @@ const Footer=()=>{
         <div class="container">
             <div class="row">
                 <div class="col-md-6 sm-padding">
-                    <div class="copyright">&copy; 2021 Charitify Powered by DynamicLayers</div>
+                    <div class="copyright">&copy; 2023 The Smile Foundation</div>
                 </div>
                 <div class="col-md-6 sm-padding">
                     <ul class="footer-social">
