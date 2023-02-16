@@ -986,7 +986,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
    9.0 Counter Section
    ========================================================================== */
 .counter-section{
-	background-image: url(./assets/img/counters-bg.jpg);
+	background-image: url(./assets/img/donate.jpeg);
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center center;
@@ -999,7 +999,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 .counters .counter-content{
 	display: block;
 	text-align: center;
-	color: #fff;
+	color: #000000;
 }
 .counters .counter-content i{
 	font-size: 36px;
@@ -1007,7 +1007,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 .counters .counter-content h3{
 	font-size: 48px;
 	margin: 10px 0;
-	color: #f8b864;
+	color: #ff0000;
     font-weight: 600;
 }
 .counters .counter-content h4{
