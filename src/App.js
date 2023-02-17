@@ -1,21 +1,26 @@
 import './App.css';
-import TopHeader from './Component/TopHeader';
-import BottomHeader from './Component/BottomHeader';
+import Header from './Component/Header';
 import Footer from './Component/Footer';
 import Stats from './Component/Stats';
 import Slide from './Component/Slide';
 import Contact from './Component/Contact';
-
+import About from './Component/About';
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import React from 'react';
 function App() {
   return (
-    <div className="App">
-      <TopHeader/>
-      <BottomHeader/>
-      <Slide/>
-      <Stats/>
-      <Contact/>
-      <Footer />
-    </div>
+    <React.Fragment>
+    <Header/>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Slide/>}/>
+      <Route path="/stats" element={<Stats/>}/>
+      <Route path="/contact" element={<Contact/>}/>
+      <Route path="/about" element={<About/>}/>
+    </Routes>
+    </BrowserRouter>
+    <Footer />
+    </React.Fragment>
   );
 }
 
