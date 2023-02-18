@@ -5,9 +5,9 @@ import Donate from "./Donate";
 
 const Header=()=>{
     return(
-        <header id="header" className="header-section p-2">
-    <div className="header">
-        <div className="container">
+        <header id="header" className="header-section">
+            <div className="header p-2">
+                <div className="container">
             <div className="content-wrap row">
                 <div className="col-sm-4 col-12">
                     <div className="site-branding">

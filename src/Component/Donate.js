@@ -1,20 +1,13 @@
-import React,{useState,useEffect} from "react";
+import React, { useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
 
-const Donate=()=>{
-    const [count, setCount] = useState(0);
-  
-    useEffect(() => {
-  
-        //Implementing the setInterval method
-        const interval = setInterval(() => {
-            setCount(count + 1);
-        }, 1000);
-  
-        //Clearing the interval
-        return () => clearInterval(interval);
-    }, [count]);
-  
-    return <h1 className="">{count}</h1>;
+function Donate () {
+  useEffect(() => {
+    setTimeout(() => {
+        window.location.href = "https://payments-test.cashfree.com/forms/dopayint";
+    }, 5000)
+  }, [])
+  return <div>Content</div>
 }
 
 // https://payments-test.cashfree.com/forms/dopayint
