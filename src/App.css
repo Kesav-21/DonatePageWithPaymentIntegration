@@ -5,7 +5,7 @@
 }
 
 .default-btn{
-    border: none;
+    border: 2px rgb(255, 111, 44) solid;
     color: orangered;
     background-color: #f8b864;
     padding: 15px;
@@ -35,17 +35,39 @@
     text-decoration: none;
     font-size:25px;
     color: blueviolet;
+    
 }
 #mainmenu{
     display: flex;
     flex-direction: row;
-    margin-right: 20px;
-    justify-content: space-between;
 }
-
+#mainmenu > li{
+    margin-right: 10px;
+}
 #mainmenu > li > a {
     text-decoration: none;
+    color:blueviolet;
+    padding: 10px;
+    border-radius: 10px;
 }
+#mainmenu > li > a:hover{
+    background-color: #FBAB7E;
+}
+
+@media only screen and (max-width: 768px) {
+    #mainmenu {
+      background-color:#444;
+      padding: 10px;
+      border-radius: 10px;
+    }
+    #mainmenu > li > a {
+        padding: 5px;
+    }
+    .slider-text{
+        margin: 50px !important;
+        color: red !important;
+    }
+  }
 
 /* Slide Component */
 .slider-text{
@@ -100,8 +122,8 @@
 
 /* About Component */
 .team-wrapper{
-    background: rgb(238,174,202);
-    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
     padding: 20px;
 }
 .team-wrap{
@@ -164,6 +186,9 @@
 	background-size: cover;
     padding: 100px 0;
 }
+.list-none{
+    list-style-type:none;
+}
 .counters .counter-content{
 	display: block;
 	text-align: center;
@@ -189,12 +214,13 @@
     position: relative;
 }
 .contact-wrap{
-    background: rgb(238,174,202);
-    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
     padding: 80px 50px;
     box-shadow: 0px 16px 28px 0px rgba(0, 0, 0, 0.15);
     margin-top: 110px;
     border-radius: 5px;
+    min-height: 90vh;
 }
 .contact-section h3{
     font-weight: 800;
@@ -235,6 +261,23 @@
     display: block;
 }
 
+/* Donate Component */
+.donate-section{
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh + -20vh);
+}
+
+@media only screen and (max-width:768px){
+    .donate-section > h3{
+        width: 75%;
+    }
+}
 
 /* Footer */
 .footer-section{
@@ -242,9 +285,10 @@
     bottom: 0px;
     background-color: #222;
     border-top: 1px solid #333;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 .footer-section .copyright{
-    font-size: 20px;
+    font-size: 10px;
     color: #ddd;
 }  
+

@@ -5,8 +5,8 @@ const Stats=()=>{
     return(
         <section id="counter" className="counter-section">
         <div className="container">
-            <ul className="row counters">
-                <li className="col-md-3 col-sm-6 sm-padding">
+            <ul className="row counters list-none">
+                <li className="col-md-3 col-sm-6 sm-padding ">
                     <div className="counter-content">
                         <CurrencyRupee color="secondary" fontSize="large"/>
                         <h3 className="counter text-danger">85389</h3>

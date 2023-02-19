@@ -56,7 +56,7 @@ const About=()=>{
                                 <li><i className="fa fa-check"></i>No goal requirements.</li>
                                 <li><i className="fa fa-check"></i>Joining is tottaly free. We dont need any money from you.</li>
                             </ul>
-                            <a href="/contact" className="default-btn">Join With Us</a>
+                            <a href="/contact" className="default-btn d-flex justify-content-center">Join With Us</a>
                         </div>
                     </div>
                 </div>
