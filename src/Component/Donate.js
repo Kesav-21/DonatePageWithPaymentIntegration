@@ -13,6 +13,7 @@ function Donate () {
   <div className='donate-section'>
     <img src={loader} alt="loader"/>
     <h3 className='text-center text-danger mt-5'>You will be redirected to Payment page in 5 seconds</h3>
+    <p>(Please Make sure to enable Popup to redirect)</p>
   </div>)
 }
 
