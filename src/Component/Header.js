@@ -1,8 +1,6 @@
 import React from "react";
 import icon from '../assets/img/icon.png';
-import Donate from "./Donate";
-
-
+import { Link } from "react-router-dom";
 const Header=()=>{
     return(
         <header id="header" className="header-section">
@@ -11,15 +9,15 @@ const Header=()=>{
             <div className="content-wrap row">
                 <div className="col-lg-6 col-12">
                     <div className="site-branding d-flex justify-content-center justify-content-md-start">
-                        <a href="/"><img src={icon} width="30px" height="30px" alt="Brand"/><span className="ms-3">The Smile Foundation</span></a>
+                        <Link to="/"><img src={icon} width="30px" height="30px" alt="Brand"/><span className="ms-3">The Smile Foundation</span></Link>
                     </div>
                 </div>
                <div className="col-lg-6 col-12 text-end">
                    <ul id="mainmenu" className="nav navbar-nav nav-menu justify-content-md-end justify-content-center">
-                        <li className="active"> <a href="/">Home</a></li>
-                        <li><a href="/about">About</a></li>
-                        <li> <a href="/contact">Contact</a></li>
-                        <li><a href="/donate" className="default-btn">Donate Now</a></li>
+                        <li className="active"> <Link to="/">Home</Link></li>
+                        <li><Link to="/about">About</Link></li>
+                        <li> <Link to="/contact">Contact</Link></li>
+                        <li><Link to="/donate" className="default-btn">Donate Now</Link></li>
                     </ul>
                </div>
             </div>

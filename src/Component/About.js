@@ -2,6 +2,8 @@ import React from "react";
 import prom from '../assets/img/profilem.png';
 import prof from '../assets/img/profilef.png';
 import Stats from './Stats';
+import { Done } from "@mui/icons-material";
+import { Link } from "react-router-dom";
 
 const About=()=>{
     return(
@@ -49,14 +51,14 @@ const About=()=>{
                             <h2>Become a Volunteer?</h2>
                             <h3>Join your hand with us for a better life and beautiful future.</h3>
                             <p>The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless.</p>
-                            <ul className="check-list">
-                                <li><i className="fa fa-check"></i>We are friendly to each other.</li>
-                                <li><i className="fa fa-check"></i>If you join with us,We will give you free training.</li>
-                                <li><i className="fa fa-check"></i>Its an opportunity to help poor children.</li>
-                                <li><i className="fa fa-check"></i>No goal requirements.</li>
-                                <li><i className="fa fa-check"></i>Joining is tottaly free. We dont need any money from you.</li>
+                            <ul className="check-list list-none">
+                                <li><Done fontSize="large"/>We are friendly to each other.</li>
+                                <li><Done fontSize="large"/>If you join with us,We will give you free training.</li>
+                                <li><Done fontSize="large"/>Its an opportunity to help poor children.</li>
+                                <li><Done fontSize="large"/>No goal requirements.</li>
+                                <li><Done fontSize="large"/>Joining is tottaly free. We dont need any money from you.</li>
                             </ul>
-                            <a href="/contact" className="default-btn d-flex justify-content-center">Join With Us</a>
+                            <Link to="/contact" className="default-btn d-flex justify-content-center">Join With Us</Link>
                         </div>
                     </div>
                 </div>

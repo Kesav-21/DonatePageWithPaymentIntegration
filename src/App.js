@@ -5,14 +5,13 @@ import Stats from './Component/Stats';
 import Slide from './Component/Slide';
 import Contact from './Component/Contact';
 import About from './Component/About';
-import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import React from 'react';
 import Donate from './Component/Donate';
 function App() {
   return (
     <React.Fragment>
     <Header/>
-    <BrowserRouter>
     <Routes>
       <Route path="/" element={<Slide/>}/>
       <Route path="/stats" element={<Stats/>}/>
@@ -20,7 +19,6 @@ function App() {
       <Route path="/donate" element={<Donate/>}/>
       <Route path="/about" element={<About/>}/>
     </Routes>
-    </BrowserRouter>
     <Footer />
     </React.Fragment>
   );

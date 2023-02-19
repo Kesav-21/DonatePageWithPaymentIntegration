@@ -1,11 +1,11 @@
 import React from "react";
-import Donate from './Donate'
 import slider1 from "../assets/img/slider-1.jpg"
 import slider2 from "../assets/img/slider-2.jpg"
 import slider3 from "../assets/img/slider-3.jpg"
 import icon1 from "../assets/img/icon-1.png";
 import icon2 from "../assets/img/icon-2.png";
 import icon3 from "../assets/img/icon-3.png";
+import { Link } from "react-router-dom";
 
 const Slide=()=>{
     return(
@@ -23,8 +23,8 @@ const Slide=()=>{
           <h5>Join Us Today</h5>
           <h1>Better Life for People</h1>
           <p >Help today because tomorrow you may be the one who needs helping! <br/>Forget what you can get and see what you can give.</p>
-          <a href="/contact" className="default-btn" >Join With Us</a>
-          <a href="/donate" className="default-btn" >Donate Now</a>
+          <Link to="/contact" className="default-btn" >Join With Us</Link>
+          <Link to="/donate" className="default-btn" >Donate Now</Link>
       </div>
     </div>
     <div className="carousel-item">
@@ -32,8 +32,8 @@ const Slide=()=>{
       <div className="carousel-caption d-none d-md-block slider-text">
         <h1>Together we  <br/>can make a Difference</h1>
         <p >Help today because tomorrow you may be the one who needs helping! <br/>Forget what you can get and see what you can give.</p>
-        <a href="/contact" className="default-btn" >Join With Us</a>
-        <a href="/donate" className="default-btn" >Donate Now</a>
+        <Link to="/contact" className="default-btn" >Join With Us</Link>
+        <Link to="/donate" className="default-btn" >Donate Now</Link>
       </div>
     </div>
     <div className="carousel-item">
@@ -42,8 +42,8 @@ const Slide=()=>{
         <h5>Join Us Today</h5>
         <h1>Give a little. Change a lot.</h1>
         <p >Help today because tomorrow you may be the one who needs helping! <br/>Forget what you can get and see what you can give.</p>
-        <a href="/contact" className="default-btn">Join With Us</a>
-        <a href="/Donate" className="default-btn">Donate Now</a>
+        <Link to="/contact" className="default-btn">Join With Us</Link>
+        <Link to="/Donate" className="default-btn">Donate Now</Link>
       </div>
     </div>
   </div>
