@@ -8,7 +8,7 @@ function Donate () {
         window.open("https://payments-test.cashfree.com/forms/dopayint",'_blank');
         navigate('/');
     }, 5000)
-  }, [navigate])
+  }, [])
   return (
   <div className='donate-section'>
     <img src={loader} alt="loader"/>
